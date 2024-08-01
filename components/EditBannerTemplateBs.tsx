@@ -27,7 +27,7 @@ const EditBannerTemplateBs: React.FC<EditBannerProps> = ({ banner, onSave, onClo
       reader.onloadend = () => {
         setEditedBanner((prev) => ({ ...prev, image: reader.result as string }));
       };
-      reader.readAsDataURL(file); 
+      reader.readAsDataURL(file);
     }
   };
 
@@ -55,16 +55,17 @@ const EditBannerTemplateBs: React.FC<EditBannerProps> = ({ banner, onSave, onClo
         borderRadius: '20px',
         boxShadow: '0 0 15px rgba(0,0,0,0.2)',
         zIndex: 1000,
-        width: '500px',
+        width: '90%',
+        maxWidth: '500px',
         maxHeight: '700px',
         overflowY: 'auto',
         display: 'flex',
         flexDirection: 'column',
         gap: '15px',
-        borderColor:'rgb(243, 58, 106)'
+        borderColor: 'rgb(243, 58, 106)',
       }}
     >
-      <h3 style={{justifyContent: 'center', justifySelf: "center"}}>Edit Banner </h3>
+      <h3 style={{ margin: '0 auto', textAlign: 'center' }}>Edit Banner</h3>
       <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
         <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '5px' }}>
@@ -77,6 +78,8 @@ const EditBannerTemplateBs: React.FC<EditBannerProps> = ({ banner, onSave, onClo
                 padding: '10px',
                 borderRadius: '5px',
                 border: '1px solid #ccc',
+                width: '100%',
+                boxSizing: 'border-box',
               }}
             />
           </div>
@@ -92,6 +95,7 @@ const EditBannerTemplateBs: React.FC<EditBannerProps> = ({ banner, onSave, onClo
                 borderRadius: '5px',
                 border: '1px solid #ccc',
                 width: '100%',
+                boxSizing: 'border-box',
               }}
             />
           </div>
@@ -103,7 +107,7 @@ const EditBannerTemplateBs: React.FC<EditBannerProps> = ({ banner, onSave, onClo
             value={editedBanner.title}
             onChange={handleChange}
             placeholder="Title"
-            style={{ padding: '10px', borderRadius: '5px', border: '1px solid #ccc', width: '100%' }}
+            style={{ padding: '10px', borderRadius: '5px', border: '1px solid #ccc', width: '100%', boxSizing: 'border-box' }}
           />
         </div>
         <div style={{ display: 'flex', flexDirection: 'column', gap: '5px' }}>
@@ -113,7 +117,7 @@ const EditBannerTemplateBs: React.FC<EditBannerProps> = ({ banner, onSave, onClo
             value={editedBanner.description}
             onChange={handleChange}
             placeholder="Description"
-            style={{ padding: '10px', borderRadius: '5px', border: '1px solid #ccc', width: '100%', resize: 'vertical' }}
+            style={{ padding: '10px', borderRadius: '5px', border: '1px solid #ccc', width: '100%', boxSizing: 'border-box', resize: 'vertical' }}
           />
         </div>
         <div style={{ display: 'flex', flexDirection: 'column', gap: '5px' }}>
@@ -123,10 +127,10 @@ const EditBannerTemplateBs: React.FC<EditBannerProps> = ({ banner, onSave, onClo
             value={editedBanner.cta}
             onChange={handleChange}
             placeholder="CTA"
-            style={{ padding: '10px', borderRadius: '5px', border: '1px solid #ccc', width: '100%' }}
+            style={{ padding: '10px', borderRadius: '5px', border: '1px solid #ccc', width: '100%', boxSizing: 'border-box' }}
           />
         </div>
-        <div style={{ display: 'flex', justifyContent: 'space-between', gap: '10px' }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', gap: '10px', flexWrap: 'wrap' }}>
           <button
             onClick={handleSave}
             style={{
@@ -135,10 +139,12 @@ const EditBannerTemplateBs: React.FC<EditBannerProps> = ({ banner, onSave, onClo
               backgroundColor: '#28a745',
               color: 'white',
               border: '2px solid white',
-              width: '100px',
+              width: '100%',
+              maxWidth: '100px',
               boxShadow: '0 7px 14px rgba(0, 0, 0, 0.3)',
               cursor: 'pointer',
               transition: 'all 0.3s',
+              boxSizing: 'border-box',
             }}
             onMouseDown={(e) => {
               e.currentTarget.style.boxShadow = '0 2px 5px rgba(0, 0, 0, 0.3)';
@@ -165,10 +171,12 @@ const EditBannerTemplateBs: React.FC<EditBannerProps> = ({ banner, onSave, onClo
               backgroundColor: '#dc3545',
               color: 'white',
               border: '2px solid white',
-              width: '100px',
+              width: '100%',
+              maxWidth: '100px',
               boxShadow: '0 7px 14px rgba(0, 0, 0, 0.3)',
               cursor: 'pointer',
               transition: 'all 0.3s',
+              boxSizing: 'border-box',
             }}
             onMouseDown={(e) => {
               e.currentTarget.style.boxShadow = '0 2px 5px rgba(0, 0, 0, 0.3)';
