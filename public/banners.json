@@ -1,0 +1,84 @@
+[
+  {
+    "id": 1,
+    "title": "Boost Your Leads",
+    "description": "Harness AI for Effective Campaigns",
+    "cta": "Learn More",
+    "image": "https://t4.ftcdn.net/jpg/02/86/06/33/360_F_286063353_Dz8fTcC9FtTBmTHnAjVb56SmqAglkDHo.webp",
+    "background": "#ffffff"
+  },
+  {
+    "id": 2,
+    "title": "Grow Your Business",
+    "description": "Unlock new opportunities with AI",
+    "cta": "Discover Now",
+    "image": "https://media.istockphoto.com/id/1169974807/photo/hand-arranging-wood-block-stacking-as-step-stair-on-paper-pink-background-business-concept.jpg?s=612x612&w=0&k=20&c=KvxSXvQflJl8h86eVIbXZ_8rrYOocQUlUmM5ROhYmcM=",
+    "background": "#f8f9fa"
+  },
+  {
+    "id": 3,
+    "title": "Enhance Your Reach",
+    "description": "Advanced marketing strategies",
+    "cta": "Explore",
+    "image": "https://t4.ftcdn.net/jpg/07/54/85/11/240_F_754851101_lLi6FhOn16P94OtjYa9c6BMGEdck7W1G.jpg",
+    "background": "#e2e8f0"
+  },
+  {
+    "id": 4,
+    "title": "Innovate with AI",
+    "description": "Cutting-edge solutions for growth",
+    "cta": "Start Today",
+    "image": "https://t4.ftcdn.net/jpg/06/29/46/77/240_F_629467791_8wc5hdPnHGvHEsoNN5SBsOw1fYgBjXPH.jpg",
+    "background": "#edf2f7"
+
+  },
+  {
+    "id": 5,
+    "title": "Streamline Operations",
+    "description": "Efficiency through AI technology",
+    "cta": "Optimize",
+    "image": "https://t4.ftcdn.net/jpg/04/26/84/17/240_F_426841789_badLsVl83tdjKjedkNXXOkoJanb7kmdB.jpg",
+    "background": "#f0f5ff"
+  },
+  {
+    "id": 6,
+    "title": "Customer Engagement",
+    "description": "Boost interaction with smart tools",
+    "cta": "Engage",
+    "image": "https://t3.ftcdn.net/jpg/05/80/52/84/240_F_580528498_nvubgu6PcpYGFMf1b6r0B8U6fhSdrfFe.jpg",
+    "background": "#fdfd96"
+  },
+  {
+    "id": 7,
+    "title": "Increase Productivity",
+    "description": "Maximize output with minimal effort",
+    "cta": "Boost",
+    "image": "https://t3.ftcdn.net/jpg/05/15/12/50/240_F_515125031_kF9l9BpWM29v7o0LRvrT8enF1vxT6R7Z.jpg",
+    "background": "#d1f7c4"
+  },
+  {
+    "id": 8,
+    "title": "Revolutionize Marketing",
+    "description": "New frontiers in AI-driven campaigns",
+    "cta": "Revolutionize",
+    "image": "https://t3.ftcdn.net/jpg/04/59/42/20/240_F_459422097_BMfnOt4B2JYZm9AXkeETJoLun1ONFrPu.jpg",
+    "background": "#ffb6c1"
+  },
+  {
+    "id": 9,
+    "title": "Lead Generation",
+    "description": "Turn prospects into customers",
+    "cta": "Generate",
+    "image": "https://t3.ftcdn.net/jpg/07/59/51/08/240_F_759510842_bYUhLLKB0Skg2a099wruR8XeJ5bcsb2u.jpg",
+    "background": "#ffdead"
+  },
+  {
+    "id": 10,
+    "title": "Secure Your Future",
+    "description": "Leverage AI for sustainable growth",
+    "cta": "Secure",
+    "image": "https://t4.ftcdn.net/jpg/08/70/49/51/240_F_870495111_pmAwJjT8bIoqEoabIOFMp4Vbpcx7KpMW.jpg",
+    "background": "#c9c9ff"
+  }
+
+]
